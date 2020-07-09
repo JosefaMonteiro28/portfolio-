@@ -24,6 +24,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font-family: Gothic A1,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: 16px;
 }
 ol, ul {
   list-style: none;
@@ -57,8 +59,8 @@ html, body {
 
 body {
   background: #000010;
-  font-family: 'Montserrat', sans-serif;
   color: #fff;
+  font-family: Gothic A1,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
 }
@@ -84,6 +86,17 @@ h2 {
   color: #ffffff;
   letter-spacing: 0.05em;
 }
+
+h4 {
+  text-align: justify;
+  margin: 10px 0px 10px 450px;
+  width: 600px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 120;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
 h1::after {
   content: '';
   width: 80px;
@@ -96,7 +109,6 @@ h1::after {
 p {
   margin: 0 0 30px 0;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 1000px) {
